@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 960px; /*MD 1280px  HD 1920px*/
+    margin: 0 auto;
+}
+
+/*navbar*/
+header {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    justify-content: space-between;
+    
+}
+
+header h2 {
+    justify-content: space-between;
+}
+
+/*main*/
+main {
+    height: 930px;
+    background: rgb(111,89,100);
+    background: radial-gradient(circle, rgba(111,89,100,1) 0%, rgba(30,14,18,1) 100%);
+}
+
+#about {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+}
+
+.img-about {
+    width: 390px;
+    display: inline-block;
+}
+
+.text-about {
+    width: 450px;
+    display: inline-block;
+    font-size: 13px;
+    background-color: #F2EDF2;
+    position: relative;
+    left: 55px;
+}
+
+#jayne {
+    width: 390px;
+    height: 245px;
+    border: 5px solid #C0C0C0;
+}
+
+.encabezado {
+    height: 20px;
+    color: white;
+    padding: 10px;
+    background: rgb(177,176,181);
+    background: linear-gradient(0deg, rgba(177,176,181,1) 0%, rgba(135,133,147,1) 100%, rgba(177,176,181,1) 0%);
+}
+
+.text-about p , .text-about a {
+    padding: 5px;
+}
+
+#pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.pagina {
+    width: 260px;
+    position: relative;
+    display: inline-block;
+}
+
+.mode > img {
+    width: 100%;
+}
+
+.family > img {
+    width: 100%;
+}
+
+.five > img {
+    width: 100%;
+}
